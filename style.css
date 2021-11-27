@@ -16,7 +16,7 @@
 .header .header-link {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -38,7 +38,7 @@
 }
 #todo-task-wrapper,
 #completed-task-wrapper {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -46,11 +46,11 @@
 .edit-mode,
 .completed-item,
 .section-title {
-  list-style:none;
+  list-style: none;
 }
 .input,
 .button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -107,7 +107,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -150,14 +149,14 @@
 .todo-item .task.input,
 .edit-mode .task.input,
 .completed-item .task.input {
-  display:none
+  display: none
 }
 
 .edit-mode .task.input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task {
-  display:none;
+  display: none;
 }
